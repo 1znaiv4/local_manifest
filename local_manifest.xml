@@ -13,8 +13,8 @@
         <project path="kernel/xiaomi/mojito" name="ProjectEverest-Devices/android_kernel_xiaomi_mojito" remote="ghb" revision="inline-rom" />
 
         <!-- Vendor -->
-        <project path="vendor/xiaomi/mojito" name="1znaiv4/android_vendor_xiaomi_mojito" remote="gtb" revision="15" />
-        <project path="vendor/xiaomi/sm6150-common" name="1znaiv4/android_vendor_xiaomi_sm6150-common" remote="gtb" revision="15" />
+        <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="gtb" revision="15" />
+        <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="gtb" revision="15" />
         
         <!-- Hardware -->
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="ghb" revision="mojito" />
