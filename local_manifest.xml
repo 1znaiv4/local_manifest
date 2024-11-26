@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="ghb"
+                fetch="https://github.com" />
+        <remote name="gtb"
+                fetch="https://gitlab.com" />
+                
+        <!-- Sync trees -->
+        <project path="device/xiaomi/mojito" name="BlissRoms-Devices/device_xiaomi_mojito" remote="ghb" revision="mojito-universe" />
+        <project path="device/xiaomi/sm6150-common" name="BlissRoms-Devices/android_device_xiaomi_sm6150-common" remote="ghb" revision="mojito-universe" />
+        <project path="vendor/xiaomi/mojito" name="1znaiv4/android_vendor_xiaomi_mojito" remote="gtb" revision="15" />
+        <project path="vendor/xiaomi/sm6150-common" name="1znaiv4/android_vendor_xiaomi_sm6150-common" remote="gtb" revision="15" />
+        <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="ghb" revision="inline-rom" />
+        <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="ghb" revision="mojito" />
+</manifest>                                                                                                                                    
